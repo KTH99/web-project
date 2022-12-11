@@ -1,0 +1,40 @@
+html, body {
+    background-color: lightpink;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid magenta;
+}
+
+#menubar {
+    background-color: rgb(232, 121, 140);
+}
+
+#menubar ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#menubar ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 30px;
+}
+
+#menubar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menubar ul li a:hover {
+    color: violet;
+}
+
+p {
+    font-size: 30px;
+}
