@@ -50,3 +50,13 @@ p a:hover {
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
+
+#addInfo {
+    font: italic bold;
+}
+
+#addInfo:hover {
+    animation-name: textColorAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}

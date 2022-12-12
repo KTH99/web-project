@@ -54,8 +54,16 @@
     <<a href="https://www.youtube.com/watch?v=igTkXvLj1yM">우연</a>> 등의 곡들을 꾸준히 히트시키며 1990년대와 2000년대를 대표하는 걸 그룹 자리에 올랐다. 특히 베이비복스는 해외 활동에도 적극적이었으며, 중국, 일본, 대만, 태국, 베트남, 몽골 등에 
     진출해 한때 동아시아를 대표하는 걸그룹으로 성장했었다.
 </p>
-<script>
 
+<p id="addInfo" onclick="change()">그 외 주요 걸그룹 - Click</p>
+<script>
+    function change() {
+        let add = document.getElementById("addInfo");
+        add.innerHTML = '쥬얼리 : <<a href="https://www.youtube.com/watch?v=1mEUFdz88Nk">Superstar</a>>, <<a href="https://www.youtube.com/watch?v=rgZ1mG-vw6g">One More Time</a>>' + '<br>'
+        + '슈가 : <<a href="https://www.youtube.com/watch?v=kXd4C8jgXCw">Sweet Love</a>>, <<a href="https://www.youtube.com/watch?v=j6SibyE5PPQ">Shine</a>>';
+        add.setAttribute("style", "font-style:normal");
+        add.setAttribute("style", "animation-play-state:paused;");
+    }
 </script>
 </body>
 </html>

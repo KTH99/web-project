@@ -62,8 +62,17 @@
     <<a href="https://www.youtube.com/watch?v=Ihi_kJJj_8A">Can't Nobody</a>>, <<a href="https://www.youtube.com/watch?v=j7_lSP8Vc3o">내가 제일 잘나가</a>>는 나올 때마다 음악방송이나 차트 1위를 석권하면서
     이들이 최고의 걸그룹 중 하나라는 것을 입증시켰다. 멜론으로부터 '지금, 21세기 대한민국을 대표할 만한 가장 역동적이며 에너지가 넘치는 걸그룹이 바로 2NE1이다.'라는 평가를 받았다.
 </p>
-<script>
 
+<p id="addInfo" onclick="change()">그 외 주요 걸그룹 - Click</p>
+<script>
+    function change() {
+        let add = document.getElementById("addInfo");
+        add.innerHTML = '티아라 : <<a href="https://www.youtube.com/watch?v=XmXIrcUFGfA">Bo Peep Bo Peep</a>>, <<a href="https://www.youtube.com/watch?v=afwK0Mv0IsY">Roly Poly(롤리폴리)</a>>, <<a href="https://www.youtube.com/watch?v=_sa1GWrN6eQ">Lovey-Dovey</a>>' + '<br>'
+        + 'f(x) : <<a href="https://www.youtube.com/watch?v=kKS12iGFyEA">피노키오(Danger)</a>>, <<a href="https://www.youtube.com/watch?v=n8I8QGFA1oM">Electric Shock</a>>' + '<br>'
+        + '시크릿 : <<a href="https://www.youtube.com/watch?v=FrCz6qvPJXE">Madonna</a>>, <<a href="https://www.youtube.com/watch?v=iTVfJ1j7o-A">별빛달빛</a>>';
+        add.setAttribute("style", "font-style:normal");
+        add.setAttribute("style", "animation-play-state:paused;");
+    }
 </script>
 </body>
 </html>

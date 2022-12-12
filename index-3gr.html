@@ -60,8 +60,17 @@
     <<a href="https://www.youtube.com/watch?v=V2hlQkVJZhE">LIKEY</a>>, <<a href="https://www.youtube.com/watch?v=mAKsZ26SabQ">YES or YES</a>>, <<a href="https://www.youtube.com/watch?v=kOHB85vDuow">FANCY</a>>, <<a href="https://www.youtube.com/watch?v=3ymwOvzhwHs">Feel Special</a>>, <<a href="https://www.youtube.com/watch?v=CM4CkVFmTds">I CAN'T STOP ME</a>> 
     등의 곡들을 꾸준히 히트시키며 2010년대를 대표하는 걸그룹 자리에 올랐다.
 </p>
-<script>
 
+<p id="addInfo" onclick="change()">그 외 주요 걸그룹 - Click</p>
+<script>
+    function change() {
+        let add = document.getElementById("addInfo");
+        add.innerHTML = '여자친구 : <<a href="https://www.youtube.com/watch?v=YYHyAIFG3iI">오늘부터 우리는</a>>, <<a href="https://www.youtube.com/watch?v=r_6q_-d-7Sk">시간을 달려서</a>>, <<a href="https://www.youtube.com/watch?v=1ZhDsPdvl6c">너 그리고 나</a>>' + '<br>'
+        + 'AOA : <<a href="https://www.youtube.com/watch?v=q6f-LLM1H6U">짧은 치마</a>>, <<a href="https://www.youtube.com/watch?v=N5wzkQvzp4c">단발머리</a>>' + '<br>'
+        + '마마무 : <<a href="https://www.youtube.com/watch?v=ELM-OpqiiZU">음오아예</a>>, <<a href="https://www.youtube.com/watch?v=kBskUGqgTTs">넌 is 뭔들</a>>';
+        add.setAttribute("style", "font-style:normal");
+        add.setAttribute("style", "animation-play-state:paused;");
+    }
 </script>
 </body>
 </html>
