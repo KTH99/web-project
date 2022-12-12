@@ -52,7 +52,7 @@ p a:hover {
 }
 
 #addInfo {
-    font: italic bold;
+    font-style: italic;
 }
 
 #addInfo:hover {
